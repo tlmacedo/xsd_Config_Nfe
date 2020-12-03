@@ -2,7 +2,7 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementaxe7xe3o de Referxeancia (JAXB) de Bind XML, v2.3.1-b171012.0423 
 // Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas as modificaxe7xf5es neste arquivo serxe3o perdidas apxf3s a recompilaxe7xe3o do esquema de origem. 
-// Gerado em: 2020.12.02 xe0s 10:32:31 AM AMT 
+// Gerado em: 2020.12.02 xe0s 10:17:58 PM AMT 
 //
 
 
@@ -154,6 +154,8 @@ import java.util.List;
  *   &lt;/complexContent&gt;
  * &lt;/complexType&gt;
  * </pre>
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "Ide", propOrder = {
@@ -207,8 +209,10 @@ public class Ide {
     /**
      * Define o valor da propriedade natOps.
      *
-     * @param value allowed object is
-     *              {@link Ide.NatOps }
+     * @param value
+     *     allowed object is
+     *     {@link Ide.NatOps }
+     *
      */
     public void setNatOps(Ide.NatOps value) {
         this.natOps = value;
@@ -217,8 +221,10 @@ public class Ide {
     /**
      * ObtxE9m o valor da propriedade indPags.
      *
-     * @return possible object is
-     * {@link Ide.IndPags }
+     * @return
+     *     possible object is
+     *     {@link Ide.IndPags }
+     *
      */
     public Ide.IndPags getIndPags() {
         return indPags;
@@ -227,8 +233,10 @@ public class Ide {
     /**
      * Define o valor da propriedade indPags.
      *
-     * @param value allowed object is
-     *              {@link Ide.IndPags }
+     * @param value
+     *     allowed object is
+     *     {@link Ide.IndPags }
+     *
      */
     public void setIndPags(Ide.IndPags value) {
         this.indPags = value;
@@ -237,8 +245,10 @@ public class Ide {
     /**
      * ObtxE9m o valor da propriedade mods.
      *
-     * @return possible object is
-     * {@link Ide.Mods }
+     * @return
+     *     possible object is
+     *     {@link Ide.Mods }
+     *
      */
     public Ide.Mods getMods() {
         return mods;
@@ -247,8 +257,10 @@ public class Ide {
     /**
      * Define o valor da propriedade mods.
      *
-     * @param value allowed object is
-     *              {@link Ide.Mods }
+     * @param value
+     *     allowed object is
+     *     {@link Ide.Mods }
+     *
      */
     public void setMods(Ide.Mods value) {
         this.mods = value;
@@ -257,8 +269,10 @@ public class Ide {
     /**
      * ObtxE9m o valor da propriedade idDests.
      *
-     * @return possible object is
-     * {@link Ide.IdDests }
+     * @return
+     *     possible object is
+     *     {@link Ide.IdDests }
+     *
      */
     public Ide.IdDests getIdDests() {
         return idDests;
@@ -267,8 +281,10 @@ public class Ide {
     /**
      * Define o valor da propriedade idDests.
      *
-     * @param value allowed object is
-     *              {@link Ide.IdDests }
+     * @param value
+     *     allowed object is
+     *     {@link Ide.IdDests }
+     *
      */
     public void setIdDests(Ide.IdDests value) {
         this.idDests = value;
@@ -277,8 +293,10 @@ public class Ide {
     /**
      * ObtxE9m o valor da propriedade tpImps.
      *
-     * @return possible object is
-     * {@link Ide.TpImps }
+     * @return
+     *     possible object is
+     *     {@link Ide.TpImps }
+     *
      */
     public Ide.TpImps getTpImps() {
         return tpImps;
@@ -287,8 +305,10 @@ public class Ide {
     /**
      * Define o valor da propriedade tpImps.
      *
-     * @param value allowed object is
-     *              {@link Ide.TpImps }
+     * @param value
+     *     allowed object is
+     *     {@link Ide.TpImps }
+     *
      */
     public void setTpImps(Ide.TpImps value) {
         this.tpImps = value;
@@ -297,8 +317,10 @@ public class Ide {
     /**
      * ObtxE9m o valor da propriedade tpEmiss.
      *
-     * @return possible object is
-     * {@link Ide.TpEmiss }
+     * @return
+     *     possible object is
+     *     {@link Ide.TpEmiss }
+     *
      */
     public Ide.TpEmiss getTpEmiss() {
         return tpEmiss;
@@ -307,8 +329,10 @@ public class Ide {
     /**
      * Define o valor da propriedade tpEmiss.
      *
-     * @param value allowed object is
-     *              {@link Ide.TpEmiss }
+     * @param value
+     *     allowed object is
+     *     {@link Ide.TpEmiss }
+     *
      */
     public void setTpEmiss(Ide.TpEmiss value) {
         this.tpEmiss = value;
@@ -317,8 +341,10 @@ public class Ide {
     /**
      * ObtxE9m o valor da propriedade tpAmbs.
      *
-     * @return possible object is
-     * {@link Ide.TpAmbs }
+     * @return
+     *     possible object is
+     *     {@link Ide.TpAmbs }
+     *
      */
     public Ide.TpAmbs getTpAmbs() {
         return tpAmbs;
@@ -327,8 +353,10 @@ public class Ide {
     /**
      * Define o valor da propriedade tpAmbs.
      *
-     * @param value allowed object is
-     *              {@link Ide.TpAmbs }
+     * @param value
+     *     allowed object is
+     *     {@link Ide.TpAmbs }
+     *
      */
     public void setTpAmbs(Ide.TpAmbs value) {
         this.tpAmbs = value;
@@ -337,8 +365,10 @@ public class Ide {
     /**
      * ObtxE9m o valor da propriedade finNFes.
      *
-     * @return possible object is
-     * {@link Ide.FinNFes }
+     * @return
+     *     possible object is
+     *     {@link Ide.FinNFes }
+     *
      */
     public Ide.FinNFes getFinNFes() {
         return finNFes;
@@ -347,8 +377,10 @@ public class Ide {
     /**
      * Define o valor da propriedade finNFes.
      *
-     * @param value allowed object is
-     *              {@link Ide.FinNFes }
+     * @param value
+     *     allowed object is
+     *     {@link Ide.FinNFes }
+     *
      */
     public void setFinNFes(Ide.FinNFes value) {
         this.finNFes = value;
@@ -357,8 +389,10 @@ public class Ide {
     /**
      * ObtxE9m o valor da propriedade indFinals.
      *
-     * @return possible object is
-     * {@link Ide.IndFinals }
+     * @return
+     *     possible object is
+     *     {@link Ide.IndFinals }
+     *
      */
     public Ide.IndFinals getIndFinals() {
         return indFinals;
@@ -367,8 +401,10 @@ public class Ide {
     /**
      * Define o valor da propriedade indFinals.
      *
-     * @param value allowed object is
-     *              {@link Ide.IndFinals }
+     * @param value
+     *     allowed object is
+     *     {@link Ide.IndFinals }
+     *
      */
     public void setIndFinals(Ide.IndFinals value) {
         this.indFinals = value;
@@ -377,8 +413,10 @@ public class Ide {
     /**
      * ObtxE9m o valor da propriedade indPress.
      *
-     * @return possible object is
-     * {@link Ide.IndPress }
+     * @return
+     *     possible object is
+     *     {@link Ide.IndPress }
+     *
      */
     public Ide.IndPress getIndPress() {
         return indPress;
@@ -387,8 +425,10 @@ public class Ide {
     /**
      * Define o valor da propriedade indPress.
      *
-     * @param value allowed object is
-     *              {@link Ide.IndPress }
+     * @param value
+     *     allowed object is
+     *     {@link Ide.IndPress }
+     *
      */
     public void setIndPress(Ide.IndPress value) {
         this.indPress = value;
@@ -397,8 +437,10 @@ public class Ide {
     /**
      * ObtxE9m o valor da propriedade procEmis.
      *
-     * @return possible object is
-     * {@link Ide.ProcEmis }
+     * @return
+     *     possible object is
+     *     {@link Ide.ProcEmis }
+     *
      */
     public Ide.ProcEmis getProcEmis() {
         return procEmis;
@@ -407,8 +449,10 @@ public class Ide {
     /**
      * Define o valor da propriedade procEmis.
      *
-     * @param value allowed object is
-     *              {@link Ide.ProcEmis }
+     * @param value
+     *     allowed object is
+     *     {@link Ide.ProcEmis }
+     *
      */
     public void setProcEmis(Ide.ProcEmis value) {
         this.procEmis = value;
@@ -431,6 +475,8 @@ public class Ide {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -460,6 +506,8 @@ public class Ide {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link FinNFe }
+         *
+         *
          */
         public List<FinNFe> getFinNFe() {
             if (finNFe == null) {
@@ -487,6 +535,8 @@ public class Ide {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -516,6 +566,8 @@ public class Ide {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link IdDest }
+         *
+         *
          */
         public List<IdDest> getIdDest() {
             if (idDest == null) {
@@ -543,6 +595,8 @@ public class Ide {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -572,6 +626,8 @@ public class Ide {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link IndFinal }
+         *
+         *
          */
         public List<IndFinal> getIndFinal() {
             if (indFinal == null) {
@@ -599,6 +655,8 @@ public class Ide {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -628,6 +686,8 @@ public class Ide {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link IndPag }
+         *
+         *
          */
         public List<IndPag> getIndPag() {
             if (indPag == null) {
@@ -655,6 +715,8 @@ public class Ide {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -684,6 +746,8 @@ public class Ide {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link IndPres }
+         *
+         *
          */
         public List<IndPres> getIndPres() {
             if (indPres == null) {
@@ -711,6 +775,8 @@ public class Ide {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -740,6 +806,8 @@ public class Ide {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link Mod }
+         *
+         *
          */
         public List<Mod> getMod() {
             if (mod == null) {
@@ -767,6 +835,8 @@ public class Ide {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -796,6 +866,8 @@ public class Ide {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link NatOp }
+         *
+         *
          */
         public List<NatOp> getNatOp() {
             if (natOp == null) {
@@ -823,6 +895,8 @@ public class Ide {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -852,6 +926,8 @@ public class Ide {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link ProcEmi }
+         *
+         *
          */
         public List<ProcEmi> getProcEmi() {
             if (procEmi == null) {
@@ -879,6 +955,8 @@ public class Ide {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -908,6 +986,8 @@ public class Ide {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link TpAmb }
+         *
+         *
          */
         public List<TpAmb> getTpAmb() {
             if (tpAmb == null) {
@@ -935,6 +1015,8 @@ public class Ide {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -964,6 +1046,8 @@ public class Ide {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link TpEmis }
+         *
+         *
          */
         public List<TpEmis> getTpEmis() {
             if (tpEmis == null) {
@@ -991,6 +1075,8 @@ public class Ide {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -1020,6 +1106,8 @@ public class Ide {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link TpImp }
+         *
+         *
          */
         public List<TpImp> getTpImp() {
             if (tpImp == null) {

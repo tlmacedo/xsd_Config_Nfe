@@ -2,7 +2,7 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementaxe7xe3o de Referxeancia (JAXB) de Bind XML, v2.3.1-b171012.0423 
 // Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas as modificaxe7xf5es neste arquivo serxe3o perdidas apxf3s a recompilaxe7xe3o do esquema de origem. 
-// Gerado em: 2020.12.02 xe0s 10:32:29 AM AMT 
+// Gerado em: 2020.12.02 xe0s 10:17:57 PM AMT 
 //
 
 
@@ -67,8 +67,10 @@ public class MyInfNfe {
     /**
      * ObtxE9m o valor da propriedade meusBancos.
      *
-     * @return possible object is
-     * {@link MeusBancos }
+     * @return
+     *     possible object is
+     *     {@link MeusBancos }
+     *
      */
     public MeusBancos getMeusBancos() {
         return meusBancos;
@@ -77,8 +79,10 @@ public class MyInfNfe {
     /**
      * Define o valor da propriedade meusBancos.
      *
-     * @param value allowed object is
-     *              {@link MeusBancos }
+     * @param value
+     *     allowed object is
+     *     {@link MeusBancos }
+     *
      */
     public void setMeusBancos(MeusBancos value) {
         this.meusBancos = value;
@@ -87,8 +91,10 @@ public class MyInfNfe {
     /**
      * ObtxE9m o valor da propriedade myConfig.
      *
-     * @return possible object is
-     * {@link MyConfig }
+     * @return
+     *     possible object is
+     *     {@link MyConfig }
+     *
      */
     public MyConfig getMyConfig() {
         return myConfig;
@@ -97,8 +103,10 @@ public class MyInfNfe {
     /**
      * Define o valor da propriedade myConfig.
      *
-     * @param value allowed object is
-     *              {@link MyConfig }
+     * @param value
+     *     allowed object is
+     *     {@link MyConfig }
+     *
      */
     public void setMyConfig(MyConfig value) {
         this.myConfig = value;
@@ -107,8 +115,10 @@ public class MyInfNfe {
     /**
      * ObtxE9m o valor da propriedade ide.
      *
-     * @return possible object is
-     * {@link Ide }
+     * @return
+     *     possible object is
+     *     {@link Ide }
+     *
      */
     public Ide getIde() {
         return ide;
@@ -117,8 +127,10 @@ public class MyInfNfe {
     /**
      * Define o valor da propriedade ide.
      *
-     * @param value allowed object is
-     *              {@link Ide }
+     * @param value
+     *     allowed object is
+     *     {@link Ide }
+     *
      */
     public void setIde(Ide value) {
         this.ide = value;
@@ -127,8 +139,10 @@ public class MyInfNfe {
     /**
      * ObtxE9m o valor da propriedade emit.
      *
-     * @return possible object is
-     * {@link Emit }
+     * @return
+     *     possible object is
+     *     {@link Emit }
+     *
      */
     public Emit getEmit() {
         return emit;
@@ -137,8 +151,10 @@ public class MyInfNfe {
     /**
      * Define o valor da propriedade emit.
      *
-     * @param value allowed object is
-     *              {@link Emit }
+     * @param value
+     *     allowed object is
+     *     {@link Emit }
+     *
      */
     public void setEmit(Emit value) {
         this.emit = value;
@@ -147,8 +163,10 @@ public class MyInfNfe {
     /**
      * ObtxE9m o valor da propriedade dest.
      *
-     * @return possible object is
-     * {@link Dest }
+     * @return
+     *     possible object is
+     *     {@link Dest }
+     *
      */
     public Dest getDest() {
         return dest;
@@ -157,8 +175,10 @@ public class MyInfNfe {
     /**
      * Define o valor da propriedade dest.
      *
-     * @param value allowed object is
-     *              {@link Dest }
+     * @param value
+     *     allowed object is
+     *     {@link Dest }
+     *
      */
     public void setDest(Dest value) {
         this.dest = value;
@@ -167,8 +187,10 @@ public class MyInfNfe {
     /**
      * ObtxE9m o valor da propriedade transp.
      *
-     * @return possible object is
-     * {@link Transp }
+     * @return
+     *     possible object is
+     *     {@link Transp }
+     *
      */
     public Transp getTransp() {
         return transp;
@@ -177,8 +199,10 @@ public class MyInfNfe {
     /**
      * Define o valor da propriedade transp.
      *
-     * @param value allowed object is
-     *              {@link Transp }
+     * @param value
+     *     allowed object is
+     *     {@link Transp }
+     *
      */
     public void setTransp(Transp value) {
         this.transp = value;
@@ -187,8 +211,10 @@ public class MyInfNfe {
     /**
      * ObtxE9m o valor da propriedade sefaz.
      *
-     * @return possible object is
-     * {@link Sefaz }
+     * @return
+     *     possible object is
+     *     {@link Sefaz }
+     *
      */
     public Sefaz getSefaz() {
         return sefaz;
@@ -197,8 +223,10 @@ public class MyInfNfe {
     /**
      * Define o valor da propriedade sefaz.
      *
-     * @param value allowed object is
-     *              {@link Sefaz }
+     * @param value
+     *     allowed object is
+     *     {@link Sefaz }
+     *
      */
     public void setSefaz(Sefaz value) {
         this.sefaz = value;

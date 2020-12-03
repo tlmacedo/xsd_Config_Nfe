@@ -2,7 +2,7 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementaxe7xe3o de Referxeancia (JAXB) de Bind XML, v2.3.1-b171012.0423 
 // Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas as modificaxe7xf5es neste arquivo serxe3o perdidas apxf3s a recompilaxe7xe3o do esquema de origem. 
-// Gerado em: 2020.12.02 xe0s 10:32:29 AM AMT 
+// Gerado em: 2020.12.02 xe0s 10:17:57 PM AMT 
 //
 
 
@@ -42,8 +42,10 @@ public class CertificadoCfg {
     /**
      * ObtxE9m o valor da propriedade tipo.
      *
-     * @return possible object is
-     * {@link String }
+     * @return
+     *     possible object is
+     *     {@link String }
+     *
      */
     public String getTipo() {
         return tipo;
@@ -52,8 +54,10 @@ public class CertificadoCfg {
     /**
      * Define o valor da propriedade tipo.
      *
-     * @param value allowed object is
-     *              {@link String }
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *
      */
     public void setTipo(String value) {
         this.tipo = value;
@@ -62,8 +66,10 @@ public class CertificadoCfg {
     /**
      * ObtxE9m o valor da propriedade path.
      *
-     * @return possible object is
-     * {@link String }
+     * @return
+     *     possible object is
+     *     {@link String }
+     *
      */
     public String getPath() {
         return path;
@@ -72,8 +78,10 @@ public class CertificadoCfg {
     /**
      * Define o valor da propriedade path.
      *
-     * @param value allowed object is
-     *              {@link String }
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *
      */
     public void setPath(String value) {
         this.path = value;

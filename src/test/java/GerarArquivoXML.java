@@ -89,6 +89,7 @@ public class GerarArquivoXML {
              * END Cfg []
              */
 
+            myConfig.setCertificadoToken("tokenSafeNet5100.cfg");
             myConfig.setCertificadoCacerts("NfeCacerts");
             myConfig.setPortaSSl(BigInteger.valueOf(443));
             myConfig.setVersao("4.00");

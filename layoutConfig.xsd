@@ -41,6 +41,7 @@
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
+            <xs:element name="certificadoToken" type="Tstr" minOccurs="1" maxOccurs="1"/>
             <xs:element name="certificadoCacerts" type="Tstr" minOccurs="1" maxOccurs="1"/>
             <xs:element name="portaSSl" type="Tint_3" minOccurs="1" maxOccurs="1"/>
             <xs:element name="versao" type="Tstr" minOccurs="1" maxOccurs="1"/>

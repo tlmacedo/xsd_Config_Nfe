@@ -2,7 +2,7 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementaxe7xe3o de Referxeancia (JAXB) de Bind XML, v2.3.1-b171012.0423 
 // Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas as modificaxe7xf5es neste arquivo serxe3o perdidas apxf3s a recompilaxe7xe3o do esquema de origem. 
-// Gerado em: 2020.12.02 xe0s 10:32:31 AM AMT 
+// Gerado em: 2020.12.02 xe0s 10:17:58 PM AMT 
 //
 
 
@@ -34,12 +34,14 @@ public class ObjectFactory {
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: br.com.cafeperfeito.xsd.config_nfe.config
+     *
      */
     public ObjectFactory() {
     }
 
     /**
      * Create an instance of {@link Sefaz }
+     *
      */
     public Sefaz createSefaz() {
         return new Sefaz();
@@ -47,6 +49,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Transp }
+     *
      */
     public Transp createTransp() {
         return new Transp();
@@ -54,6 +57,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Dest }
+     *
      */
     public Dest createDest() {
         return new Dest();
@@ -61,6 +65,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Emit }
+     *
      */
     public Emit createEmit() {
         return new Emit();
@@ -68,6 +73,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Ide }
+     *
      */
     public Ide createIde() {
         return new Ide();
@@ -75,6 +81,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link MyConfig }
+     *
      */
     public MyConfig createMyConfig() {
         return new MyConfig();
@@ -82,6 +89,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link MeusBancos }
+     *
      */
     public MeusBancos createMeusBancos() {
         return new MeusBancos();
@@ -89,6 +97,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link MyInfNfe }
+     *
      */
     public MyInfNfe createMyInfNfe() {
         return new MyInfNfe();
@@ -96,6 +105,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Banco }
+     *
      */
     public Banco createBanco() {
         return new Banco();
@@ -103,6 +113,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link InfAdic }
+     *
      */
     public InfAdic createInfAdic() {
         return new InfAdic();
@@ -110,6 +121,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link InfRespTec }
+     *
      */
     public InfRespTec createInfRespTec() {
         return new InfRespTec();
@@ -117,6 +129,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link CertificadoCfg }
+     *
      */
     public CertificadoCfg createCertificadoCfg() {
         return new CertificadoCfg();
@@ -124,6 +137,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link NatOp }
+     *
      */
     public NatOp createNatOp() {
         return new NatOp();
@@ -131,6 +145,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link IndPag }
+     *
      */
     public IndPag createIndPag() {
         return new IndPag();
@@ -138,6 +153,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Mod }
+     *
      */
     public Mod createMod() {
         return new Mod();
@@ -145,6 +161,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link IdDest }
+     *
      */
     public IdDest createIdDest() {
         return new IdDest();
@@ -152,6 +169,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TpImp }
+     *
      */
     public TpImp createTpImp() {
         return new TpImp();
@@ -159,6 +177,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TpEmis }
+     *
      */
     public TpEmis createTpEmis() {
         return new TpEmis();
@@ -166,6 +185,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link TpAmb }
+     *
      */
     public TpAmb createTpAmb() {
         return new TpAmb();
@@ -173,6 +193,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link FinNFe }
+     *
      */
     public FinNFe createFinNFe() {
         return new FinNFe();
@@ -180,6 +201,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link IndFinal }
+     *
      */
     public IndFinal createIndFinal() {
         return new IndFinal();
@@ -187,6 +209,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link IndPres }
+     *
      */
     public IndPres createIndPres() {
         return new IndPres();
@@ -194,6 +217,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ProcEmi }
+     *
      */
     public ProcEmi createProcEmi() {
         return new ProcEmi();
@@ -201,6 +225,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Crt }
+     *
      */
     public Crt createCrt() {
         return new Crt();
@@ -208,6 +233,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link IndIEDest }
+     *
      */
     public IndIEDest createIndIEDest() {
         return new IndIEDest();
@@ -215,6 +241,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ModFrete }
+     *
      */
     public ModFrete createModFrete() {
         return new ModFrete();
@@ -222,6 +249,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Status }
+     *
      */
     public Status createStatus() {
         return new Status();
@@ -229,6 +257,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Sefaz.Statuss }
+     *
      */
     public Sefaz.Statuss createSefazStatuss() {
         return new Sefaz.Statuss();
@@ -236,6 +265,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Transp.ModFretes }
+     *
      */
     public Transp.ModFretes createTranspModFretes() {
         return new Transp.ModFretes();
@@ -243,6 +273,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Dest.IndIEDests }
+     *
      */
     public Dest.IndIEDests createDestIndIEDests() {
         return new Dest.IndIEDests();
@@ -250,6 +281,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Emit.Crts }
+     *
      */
     public Emit.Crts createEmitCrts() {
         return new Emit.Crts();
@@ -257,6 +289,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Ide.NatOps }
+     *
      */
     public Ide.NatOps createIdeNatOps() {
         return new Ide.NatOps();
@@ -264,6 +297,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Ide.IndPags }
+     *
      */
     public Ide.IndPags createIdeIndPags() {
         return new Ide.IndPags();
@@ -271,6 +305,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Ide.Mods }
+     *
      */
     public Ide.Mods createIdeMods() {
         return new Ide.Mods();
@@ -278,6 +313,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Ide.IdDests }
+     *
      */
     public Ide.IdDests createIdeIdDests() {
         return new Ide.IdDests();
@@ -285,6 +321,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Ide.TpImps }
+     *
      */
     public Ide.TpImps createIdeTpImps() {
         return new Ide.TpImps();
@@ -292,6 +329,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Ide.TpEmiss }
+     *
      */
     public Ide.TpEmiss createIdeTpEmiss() {
         return new Ide.TpEmiss();
@@ -299,6 +337,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Ide.TpAmbs }
+     *
      */
     public Ide.TpAmbs createIdeTpAmbs() {
         return new Ide.TpAmbs();
@@ -306,6 +345,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Ide.FinNFes }
+     *
      */
     public Ide.FinNFes createIdeFinNFes() {
         return new Ide.FinNFes();
@@ -313,6 +353,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Ide.IndFinals }
+     *
      */
     public Ide.IndFinals createIdeIndFinals() {
         return new Ide.IndFinals();
@@ -320,6 +361,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Ide.IndPress }
+     *
      */
     public Ide.IndPress createIdeIndPress() {
         return new Ide.IndPress();
@@ -327,6 +369,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Ide.ProcEmis }
+     *
      */
     public Ide.ProcEmis createIdeProcEmis() {
         return new Ide.ProcEmis();
@@ -334,6 +377,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link MyConfig.CertificadoCfgs }
+     *
      */
     public MyConfig.CertificadoCfgs createMyConfigCertificadoCfgs() {
         return new MyConfig.CertificadoCfgs();
@@ -341,6 +385,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link MyConfig.InfRespTecs }
+     *
      */
     public MyConfig.InfRespTecs createMyConfigInfRespTecs() {
         return new MyConfig.InfRespTecs();
@@ -348,6 +393,7 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link MeusBancos.Bancos }
+     *
      */
     public MeusBancos.Bancos createMeusBancosBancos() {
         return new MeusBancos.Bancos();
@@ -356,8 +402,10 @@ public class ObjectFactory {
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link MyInfNfe }{@code >}
      *
-     * @param value Java instance representing xml element's value.
-     * @return the new instance of {@link JAXBElement }{@code <}{@link MyInfNfe }{@code >}
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link MyInfNfe }{@code >}
      */
     @XmlElementDecl(namespace = "", name = "infMyNfe")
     public JAXBElement<MyInfNfe> createInfMyNfe(MyInfNfe value) {

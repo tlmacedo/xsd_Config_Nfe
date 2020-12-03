@@ -2,7 +2,7 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementaxe7xe3o de Referxeancia (JAXB) de Bind XML, v2.3.1-b171012.0423 
 // Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas as modificaxe7xf5es neste arquivo serxe3o perdidas apxf3s a recompilaxe7xe3o do esquema de origem. 
-// Gerado em: 2020.12.02 xe0s 10:32:31 AM AMT 
+// Gerado em: 2020.12.02 xe0s 10:17:58 PM AMT 
 //
 
 
@@ -50,6 +50,7 @@ public class Banco {
 
     /**
      * ObtxE9m o valor da propriedade id.
+     *
      */
     public long getId() {
         return id;
@@ -57,6 +58,7 @@ public class Banco {
 
     /**
      * Define o valor da propriedade id.
+     *
      */
     public void setId(long value) {
         this.id = value;
@@ -65,8 +67,10 @@ public class Banco {
     /**
      * ObtxE9m o valor da propriedade nome.
      *
-     * @return possible object is
-     * {@link String }
+     * @return
+     *     possible object is
+     *     {@link String }
+     *
      */
     public String getNome() {
         return nome;
@@ -75,8 +79,10 @@ public class Banco {
     /**
      * Define o valor da propriedade nome.
      *
-     * @param value allowed object is
-     *              {@link String }
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *
      */
     public void setNome(String value) {
         this.nome = value;
@@ -85,8 +91,10 @@ public class Banco {
     /**
      * ObtxE9m o valor da propriedade agencia.
      *
-     * @return possible object is
-     * {@link String }
+     * @return
+     *     possible object is
+     *     {@link String }
+     *
      */
     public String getAgencia() {
         return agencia;
@@ -95,8 +103,10 @@ public class Banco {
     /**
      * Define o valor da propriedade agencia.
      *
-     * @param value allowed object is
-     *              {@link String }
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *
      */
     public void setAgencia(String value) {
         this.agencia = value;
@@ -105,8 +115,10 @@ public class Banco {
     /**
      * ObtxE9m o valor da propriedade conta.
      *
-     * @return possible object is
-     * {@link String }
+     * @return
+     *     possible object is
+     *     {@link String }
+     *
      */
     public String getConta() {
         return conta;
@@ -115,8 +127,10 @@ public class Banco {
     /**
      * Define o valor da propriedade conta.
      *
-     * @param value allowed object is
-     *              {@link String }
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *
      */
     public void setConta(String value) {
         this.conta = value;
@@ -124,6 +138,7 @@ public class Banco {
 
     /**
      * ObtxE9m o valor da propriedade padrão.
+     *
      */
     public boolean isPadrão() {
         return padrão;
@@ -131,6 +146,7 @@ public class Banco {
 
     /**
      * Define o valor da propriedade padrão.
+     *
      */
     public void setPadrão(boolean value) {
         this.padrão = value;

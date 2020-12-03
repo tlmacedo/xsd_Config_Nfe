@@ -2,7 +2,7 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementaxe7xe3o de Referxeancia (JAXB) de Bind XML, v2.3.1-b171012.0423 
 // Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas as modificaxe7xf5es neste arquivo serxe3o perdidas apxf3s a recompilaxe7xe3o do esquema de origem. 
-// Gerado em: 2020.12.02 xe0s 10:32:29 AM AMT 
+// Gerado em: 2020.12.02 xe0s 10:17:57 PM AMT 
 //
 
 
@@ -40,6 +40,7 @@ import java.util.List;
  *             &lt;/complexContent&gt;
  *           &lt;/complexType&gt;
  *         &lt;/element&gt;
+ *         &lt;element name="certificadoToken" type="{}Tstr"/&gt;
  *         &lt;element name="certificadoCacerts" type="{}Tstr"/&gt;
  *         &lt;element name="portaSSl" type="{}Tint_3"/&gt;
  *         &lt;element name="versao" type="{}Tstr"/&gt;
@@ -80,10 +81,13 @@ import java.util.List;
  *   &lt;/complexContent&gt;
  * &lt;/complexType&gt;
  * </pre>
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "MyConfig", propOrder = {
         "certificadoCfgs",
+        "certificadoToken",
         "certificadoCacerts",
         "portaSSl",
         "versao",
@@ -114,6 +118,8 @@ public class MyConfig {
 
     @XmlElement(required = true)
     protected MyConfig.CertificadoCfgs certificadoCfgs;
+    @XmlElement(required = true)
+    protected String certificadoToken;
     @XmlElement(required = true)
     protected String certificadoCacerts;
     @XmlElement(required = true)
@@ -178,11 +184,33 @@ public class MyConfig {
     /**
      * Define o valor da propriedade certificadoCfgs.
      *
-     * @param value allowed object is
-     *              {@link MyConfig.CertificadoCfgs }
+     * @param value
+     *     allowed object is
+     *     {@link MyConfig.CertificadoCfgs }
+     *
      */
     public void setCertificadoCfgs(MyConfig.CertificadoCfgs value) {
         this.certificadoCfgs = value;
+    }
+
+    /**
+     * ObtxE9m o valor da propriedade certificadoToken.
+     *
+     * @return possible object is
+     * {@link String }
+     */
+    public String getCertificadoToken() {
+        return certificadoToken;
+    }
+
+    /**
+     * Define o valor da propriedade certificadoToken.
+     *
+     * @param value allowed object is
+     *              {@link String }
+     */
+    public void setCertificadoToken(String value) {
+        this.certificadoToken = value;
     }
 
     /**
@@ -197,9 +225,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade certificadoCacerts.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
      *
-     * @param value allowed object is
-     *              {@link String }
      */
     public void setCertificadoCacerts(String value) {
         this.certificadoCacerts = value;
@@ -207,9 +237,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade portaSSl.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getPortaSSl() {
         return portaSSl;
@@ -217,9 +249,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade portaSSl.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setPortaSSl(BigInteger value) {
         this.portaSSl = value;
@@ -227,9 +261,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade versao.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
      *
-     * @return possible object is
-     * {@link String }
      */
     public String getVersao() {
         return versao;
@@ -237,9 +273,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade versao.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
      *
-     * @param value allowed object is
-     *              {@link String }
      */
     public void setVersao(String value) {
         this.versao = value;
@@ -247,9 +285,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade indSinc.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getIndSinc() {
         return indSinc;
@@ -257,9 +297,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade indSinc.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setIndSinc(BigInteger value) {
         this.indSinc = value;
@@ -267,9 +309,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade natOp.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getNatOp() {
         return natOp;
@@ -277,9 +321,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade natOp.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setNatOp(BigInteger value) {
         this.natOp = value;
@@ -287,9 +333,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade mod.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getMod() {
         return mod;
@@ -297,9 +345,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade mod.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setMod(BigInteger value) {
         this.mod = value;
@@ -307,9 +357,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade serie.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getSerie() {
         return serie;
@@ -317,9 +369,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade serie.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setSerie(BigInteger value) {
         this.serie = value;
@@ -327,9 +381,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade tpNF.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getTpNF() {
         return tpNF;
@@ -337,9 +393,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade tpNF.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setTpNF(BigInteger value) {
         this.tpNF = value;
@@ -347,9 +405,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade idDest.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getIdDest() {
         return idDest;
@@ -357,9 +417,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade idDest.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setIdDest(BigInteger value) {
         this.idDest = value;
@@ -367,9 +429,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade cMunFG.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getCMunFG() {
         return cMunFG;
@@ -377,9 +441,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade cMunFG.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setCMunFG(BigInteger value) {
         this.cMunFG = value;
@@ -387,9 +453,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade tpImp.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getTpImp() {
         return tpImp;
@@ -397,9 +465,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade tpImp.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setTpImp(BigInteger value) {
         this.tpImp = value;
@@ -407,9 +477,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade tpEmis.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getTpEmis() {
         return tpEmis;
@@ -417,9 +489,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade tpEmis.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setTpEmis(BigInteger value) {
         this.tpEmis = value;
@@ -427,9 +501,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade tpAmb.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getTpAmb() {
         return tpAmb;
@@ -437,9 +513,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade tpAmb.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setTpAmb(BigInteger value) {
         this.tpAmb = value;
@@ -447,9 +525,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade finNFe.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getFinNFe() {
         return finNFe;
@@ -457,9 +537,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade finNFe.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setFinNFe(BigInteger value) {
         this.finNFe = value;
@@ -467,9 +549,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade indPres.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getIndPres() {
         return indPres;
@@ -477,9 +561,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade indPres.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setIndPres(BigInteger value) {
         this.indPres = value;
@@ -487,9 +573,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade procEmi.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getProcEmi() {
         return procEmi;
@@ -497,9 +585,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade procEmi.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setProcEmi(BigInteger value) {
         this.procEmi = value;
@@ -507,9 +597,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade verProc.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
      *
-     * @return possible object is
-     * {@link String }
      */
     public String getVerProc() {
         return verProc;
@@ -517,9 +609,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade verProc.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
      *
-     * @param value allowed object is
-     *              {@link String }
      */
     public void setVerProc(String value) {
         this.verProc = value;
@@ -527,9 +621,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade indPag.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getIndPag() {
         return indPag;
@@ -537,9 +633,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade indPag.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setIndPag(BigInteger value) {
         this.indPag = value;
@@ -547,9 +645,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade cPais.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getCPais() {
         return cPais;
@@ -557,9 +657,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade cPais.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setCPais(BigInteger value) {
         this.cPais = value;
@@ -567,9 +669,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade nPais.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
      *
-     * @return possible object is
-     * {@link String }
      */
     public String getNPais() {
         return nPais;
@@ -577,9 +681,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade nPais.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
      *
-     * @param value allowed object is
-     *              {@link String }
      */
     public void setNPais(String value) {
         this.nPais = value;
@@ -587,9 +693,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade crt.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
      *
-     * @return possible object is
-     * {@link BigInteger }
      */
     public BigInteger getCRT() {
         return crt;
@@ -597,9 +705,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade crt.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
      *
-     * @param value allowed object is
-     *              {@link BigInteger }
      */
     public void setCRT(BigInteger value) {
         this.crt = value;
@@ -607,9 +717,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade infAdic.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
      *
-     * @return possible object is
-     * {@link String }
      */
     public String getInfAdic() {
         return infAdic;
@@ -617,9 +729,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade infAdic.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
      *
-     * @param value allowed object is
-     *              {@link String }
      */
     public void setInfAdic(String value) {
         this.infAdic = value;
@@ -627,9 +741,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade homCNPJ.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
      *
-     * @return possible object is
-     * {@link String }
      */
     public String getHomCNPJ() {
         return homCNPJ;
@@ -637,9 +753,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade homCNPJ.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
      *
-     * @param value allowed object is
-     *              {@link String }
      */
     public void setHomCNPJ(String value) {
         this.homCNPJ = value;
@@ -647,9 +765,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade homRazao.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
      *
-     * @return possible object is
-     * {@link String }
      */
     public String getHomRazao() {
         return homRazao;
@@ -657,9 +777,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade homRazao.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
      *
-     * @param value allowed object is
-     *              {@link String }
      */
     public void setHomRazao(String value) {
         this.homRazao = value;
@@ -667,9 +789,11 @@ public class MyConfig {
 
     /**
      * ObtxE9m o valor da propriedade infRespTecs.
+     * 
+     * @return
+     *     possible object is
+     *     {@link MyConfig.InfRespTecs }
      *
-     * @return possible object is
-     * {@link MyConfig.InfRespTecs }
      */
     public MyConfig.InfRespTecs getInfRespTecs() {
         return infRespTecs;
@@ -677,9 +801,11 @@ public class MyConfig {
 
     /**
      * Define o valor da propriedade infRespTecs.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link MyConfig.InfRespTecs }
      *
-     * @param value allowed object is
-     *              {@link MyConfig.InfRespTecs }
      */
     public void setInfRespTecs(MyConfig.InfRespTecs value) {
         this.infRespTecs = value;
@@ -688,7 +814,7 @@ public class MyConfig {
 
     /**
      * <p>Classe Java de anonymous complex type.
-     *
+     * 
      * <p>O seguinte fragmento do esquema especifica o contexFAdo esperado contido dentro desta classe.
      *
      * <pre>
@@ -702,6 +828,8 @@ public class MyConfig {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -714,7 +842,7 @@ public class MyConfig {
 
         /**
          * Gets the value of the certificadoCfg property.
-         *
+         * 
          * <p>
          * This accessor method returns a reference to the live list,
          * not a snapshot. Therefore any modification you make to the
@@ -731,6 +859,8 @@ public class MyConfig {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link CertificadoCfg }
+         *
+         *
          */
         public List<CertificadoCfg> getCertificadoCfg() {
             if (certificadoCfg == null) {
@@ -744,7 +874,7 @@ public class MyConfig {
 
     /**
      * <p>Classe Java de anonymous complex type.
-     *
+     * 
      * <p>O seguinte fragmento do esquema especifica o contexFAdo esperado contido dentro desta classe.
      *
      * <pre>
@@ -758,6 +888,8 @@ public class MyConfig {
      *   &lt;/complexContent&gt;
      * &lt;/complexType&gt;
      * </pre>
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -770,7 +902,7 @@ public class MyConfig {
 
         /**
          * Gets the value of the infRespTec property.
-         *
+         * 
          * <p>
          * This accessor method returns a reference to the live list,
          * not a snapshot. Therefore any modification you make to the
@@ -787,6 +919,8 @@ public class MyConfig {
          * <p>
          * Objects of the following type(s) are allowed in the list
          * {@link InfRespTec }
+         *
+         *
          */
         public List<InfRespTec> getInfRespTec() {
             if (infRespTec == null) {

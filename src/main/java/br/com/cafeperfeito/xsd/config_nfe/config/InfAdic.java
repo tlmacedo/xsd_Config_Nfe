@@ -2,7 +2,7 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementaxe7xe3o de Referxeancia (JAXB) de Bind XML, v2.3.1-b171012.0423 
 // Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas as modificaxe7xf5es neste arquivo serxe3o perdidas apxf3s a recompilaxe7xe3o do esquema de origem. 
-// Gerado em: 2020.12.02 xe0s 10:32:31 AM AMT 
+// Gerado em: 2020.12.02 xe0s 10:17:58 PM AMT 
 //
 
 
@@ -48,8 +48,10 @@ public class InfAdic {
     /**
      * ObtxE9m o valor da propriedade campo.
      *
-     * @return possible object is
-     * {@link String }
+     * @return
+     *     possible object is
+     *     {@link String }
+     *
      */
     public String getCampo() {
         return campo;
@@ -58,8 +60,10 @@ public class InfAdic {
     /**
      * Define o valor da propriedade campo.
      *
-     * @param value allowed object is
-     *              {@link String }
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *
      */
     public void setCampo(String value) {
         this.campo = value;
@@ -68,8 +72,10 @@ public class InfAdic {
     /**
      * ObtxE9m o valor da propriedade texto.
      *
-     * @return possible object is
-     * {@link String }
+     * @return
+     *     possible object is
+     *     {@link String }
+     *
      */
     public String getTexto() {
         return texto;
@@ -78,8 +84,10 @@ public class InfAdic {
     /**
      * Define o valor da propriedade texto.
      *
-     * @param value allowed object is
-     *              {@link String }
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *
      */
     public void setTexto(String value) {
         this.texto = value;
@@ -88,8 +96,10 @@ public class InfAdic {
     /**
      * ObtxE9m o valor da propriedade variavel.
      *
-     * @return possible object is
-     * {@link String }
+     * @return
+     *     possible object is
+     *     {@link String }
+     *
      */
     public String getVariavel() {
         return variavel;
@@ -98,8 +108,10 @@ public class InfAdic {
     /**
      * Define o valor da propriedade variavel.
      *
-     * @param value allowed object is
-     *              {@link String }
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *
      */
     public void setVariavel(String value) {
         this.variavel = value;
@@ -107,6 +119,7 @@ public class InfAdic {
 
     /**
      * ObtxE9m o valor da propriedade quebraPag.
+     *
      */
     public boolean isQuebraPag() {
         return quebraPag;
@@ -114,6 +127,7 @@ public class InfAdic {
 
     /**
      * Define o valor da propriedade quebraPag.
+     *
      */
     public void setQuebraPag(boolean value) {
         this.quebraPag = value;
